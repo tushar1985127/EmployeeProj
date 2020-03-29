@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="EmployeeProject">
+
+	<listeners>
+		<listener class-name="com.employee.utilities.Listeners"></listener>
+	</listeners>
+	<test name="Testcases">
+		<classes>
+			<class name="com.employee.testcases.TC001GetRequest" />
+			<class name="com.employee.testcases.TC002PostRequest" />
+			<class name="com.employee.testcases.TC003GetRequest" />
+			<class name="com.employee.testcases.TC004GetRequest" />
+		
+		</classes>
+	
+	</test>
+
+
+</suite>

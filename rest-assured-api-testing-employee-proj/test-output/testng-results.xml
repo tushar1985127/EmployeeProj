@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EmployeeProject" duration-ms="68400" started-at="2020-03-29T10:45:39Z" finished-at="2020-03-29T10:46:47Z">
+    <groups>
+    </groups>
+    <test name="Testcases" duration-ms="68400" started-at="2020-03-29T10:45:39Z" finished-at="2020-03-29T10:46:47Z">
+      <class name="com.employee.testcases.TC004GetRequest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.employee.testcases.TC004GetRequest@3c0ecd4b]" name="setUp" is-config="true" duration-ms="4" started-at="2020-03-29T16:16:35Z" finished-at="2020-03-29T16:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getBookDetails()[pri:0, instance:com.employee.testcases.TC004GetRequest@3c0ecd4b]" name="getBookDetails" is-config="true" duration-ms="5477" started-at="2020-03-29T16:16:35Z" finished-at="2020-03-29T16:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookDetails -->
+        <test-method status="PASS" signature="verifyResponseBody()[pri:0, instance:com.employee.testcases.TC004GetRequest@3c0ecd4b]" name="verifyResponseBody" duration-ms="3011" started-at="2020-03-29T16:16:41Z" finished-at="2020-03-29T16:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBody -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.employee.testcases.TC004GetRequest@3c0ecd4b]" name="verifyStatusCode" duration-ms="3005" started-at="2020-03-29T16:16:44Z" finished-at="2020-03-29T16:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+      </class> <!-- com.employee.testcases.TC004GetRequest -->
+      <class name="com.employee.testcases.TC002PostRequest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.employee.testcases.TC002PostRequest@31ef45e3]" name="setUp" is-config="true" duration-ms="4" started-at="2020-03-29T16:16:09Z" finished-at="2020-03-29T16:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerCustomer()[pri:0, instance:com.employee.testcases.TC002PostRequest@31ef45e3]" name="registerCustomer" is-config="true" duration-ms="5635" started-at="2020-03-29T16:16:09Z" finished-at="2020-03-29T16:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCustomer -->
+        <test-method status="PASS" signature="verifyResponseBody()[pri:0, instance:com.employee.testcases.TC002PostRequest@31ef45e3]" name="verifyResponseBody" duration-ms="3003" started-at="2020-03-29T16:16:15Z" finished-at="2020-03-29T16:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBody -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.employee.testcases.TC002PostRequest@31ef45e3]" name="verifyStatusCode" duration-ms="3002" started-at="2020-03-29T16:16:18Z" finished-at="2020-03-29T16:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.employee.testcases.TC002PostRequest@31ef45e3]" name="tearDown" is-config="true" duration-ms="3000" started-at="2020-03-29T16:16:21Z" finished-at="2020-03-29T16:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employee.testcases.TC002PostRequest -->
+      <class name="com.employee.testcases.TC003GetRequest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.employee.testcases.TC003GetRequest@598067a5]" name="setUp" is-config="true" duration-ms="1" started-at="2020-03-29T16:16:24Z" finished-at="2020-03-29T16:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAuthentication()[pri:0, instance:com.employee.testcases.TC003GetRequest@598067a5]" name="getAuthentication" is-config="true" duration-ms="5625" started-at="2020-03-29T16:16:24Z" finished-at="2020-03-29T16:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthentication -->
+        <test-method status="PASS" signature="verifyResponseBody()[pri:0, instance:com.employee.testcases.TC003GetRequest@598067a5]" name="verifyResponseBody" duration-ms="3002" started-at="2020-03-29T16:16:29Z" finished-at="2020-03-29T16:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBody -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.employee.testcases.TC003GetRequest@598067a5]" name="verifyStatusCode" duration-ms="3001" started-at="2020-03-29T16:16:32Z" finished-at="2020-03-29T16:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+      </class> <!-- com.employee.testcases.TC003GetRequest -->
+      <class name="com.employee.testcases.TC001GetRequest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.employee.testcases.TC001GetRequest@57fffcd7]" name="setUp" is-config="true" duration-ms="38" started-at="2020-03-29T16:15:39Z" finished-at="2020-03-29T16:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getWhetherDetails()[pri:0, instance:com.employee.testcases.TC001GetRequest@57fffcd7]" name="getWhetherDetails" is-config="true" duration-ms="9068" started-at="2020-03-29T16:15:39Z" finished-at="2020-03-29T16:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWhetherDetails -->
+        <test-method status="PASS" signature="fetchHeaders()[pri:0, instance:com.employee.testcases.TC001GetRequest@57fffcd7]" name="fetchHeaders" duration-ms="3013" started-at="2020-03-29T16:15:48Z" finished-at="2020-03-29T16:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchHeaders -->
+        <test-method status="PASS" signature="verifyContentEncoding()[pri:0, instance:com.employee.testcases.TC001GetRequest@57fffcd7]" name="verifyContentEncoding" duration-ms="3004" started-at="2020-03-29T16:15:51Z" finished-at="2020-03-29T16:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentEncoding -->
+        <test-method status="PASS" signature="verifyContentLength()[pri:0, instance:com.employee.testcases.TC001GetRequest@57fffcd7]" name="verifyContentLength" duration-ms="3004" started-at="2020-03-29T16:15:54Z" finished-at="2020-03-29T16:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentLength -->
+        <test-method status="PASS" signature="verifyResponseBody()[pri:0, instance:com.employee.testcases.TC001GetRequest@57fffcd7]" name="verifyResponseBody" duration-ms="3040" started-at="2020-03-29T16:15:57Z" finished-at="2020-03-29T16:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBody -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.employee.testcases.TC001GetRequest@57fffcd7]" name="verifyStatusCode" duration-ms="3001" started-at="2020-03-29T16:16:00Z" finished-at="2020-03-29T16:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method status="PASS" signature="verifyStatusLine()[pri:0, instance:com.employee.testcases.TC001GetRequest@57fffcd7]" name="verifyStatusLine" duration-ms="3001" started-at="2020-03-29T16:16:03Z" finished-at="2020-03-29T16:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.employee.testcases.TC001GetRequest@57fffcd7]" name="tearDown" is-config="true" duration-ms="3000" started-at="2020-03-29T16:16:06Z" finished-at="2020-03-29T16:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employee.testcases.TC001GetRequest -->
+    </test> <!-- Testcases -->
+  </suite> <!-- EmployeeProject -->
+</testng-results>

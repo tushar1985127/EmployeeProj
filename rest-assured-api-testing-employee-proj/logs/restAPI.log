@@ -1,0 +1,98 @@
+2020-03-29 17:29:44 INFO  EmployeeProject:22 - ***********************************TC001 Starts********************************
+2020-03-29 17:29:53 INFO  EmployeeProject:97 - *****************************fetchHeaders********************************************
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Server======nginx
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Date======Sun, 29 Mar 2020 11:59:47 GMT
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Content-Type======application/json
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Content-Length======161
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Connection======keep-alive
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Vary======Accept-Encoding
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Content-Encoding======gzip
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Cache-Control======max-age=0
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Expires======Sun, 29 Mar 2020 11:59:47 GMT
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Host-Header======192fc2e7e50945beb8231a492d6a8024
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Access-Control-Allow-Origin======*
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - alt-svc======quic=":443"; ma=86400; v="43,39"
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - Host-Header======5d77dd967d63c3104bced1db0cace49c
+2020-03-29 17:29:53 INFO  EmployeeProject:102 - X-Proxy-Cache======MISS
+2020-03-29 17:29:56 INFO  EmployeeProject:87 - *******************************verifyContentEncoding***********************************
+2020-03-29 17:29:56 INFO  EmployeeProject:90 - contentEncoding==>gzip
+2020-03-29 17:29:59 INFO  EmployeeProject:76 - ***********************************verifyContentLength*******************************
+2020-03-29 17:29:59 INFO  EmployeeProject:79 - Content Length is ==>161
+2020-03-29 17:30:02 INFO  EmployeeProject:54 - *******************************verifyResponseBody*****************************
+2020-03-29 17:30:02 INFO  EmployeeProject:57 - Response Body is ==> {
+    "City": "Mumbai",
+    "Temperature": "33.01 Degree celsius",
+    "Humidity": "38 Percent",
+    "WeatherDescription": "smoke",
+    "WindSpeed": "5.1 Km per hour",
+    "WindDirectionDegree": "330 Degree"
+}
+2020-03-29 17:30:02 INFO  EmployeeProject:67 - city==>Mumbai======weatherDescription==>smoke
+2020-03-29 17:30:05 INFO  EmployeeProject:34 - *****************************verifyStatusCode**********************************
+2020-03-29 17:30:05 INFO  EmployeeProject:37 - Status Code==>200
+2020-03-29 17:30:08 INFO  EmployeeProject:44 - *******************************verifyStatusLine*****************************
+2020-03-29 17:30:08 INFO  EmployeeProject:47 - Status Line is ==> HTTP/1.1 200 OK
+2020-03-29 17:30:11 INFO  EmployeeProject:112 - ****************************TC001 Ends*********************************************
+2020-03-29 17:30:14 INFO  EmployeeProject:26 - ***************************TC002 Starts ****************************************
+2020-03-29 17:30:20 INFO  EmployeeProject:55 - ******************************verifyResponseBody********************************
+2020-03-29 17:30:20 INFO  EmployeeProject:58 - REsponse Body is ==> {
+    "SuccessCode": "OPERATION_SUCCESS",
+    "Message": "Operation completed successfully"
+}
+2020-03-29 17:30:23 INFO  EmployeeProject:45 - *****************************Verify Status Code*********************************
+2020-03-29 17:30:23 INFO  EmployeeProject:48 - Sttus Code is ==> 201
+2020-03-29 17:30:26 INFO  EmployeeProject:76 - *****************************TC002 Ends****************************************
+2020-03-29 17:30:29 INFO  EmployeeProject:19 - *****************************TC003 Starts*****************************
+2020-03-29 17:30:35 INFO  EmployeeProject:43 - **************************verifyResponseBody*******************************
+2020-03-29 17:30:35 INFO  EmployeeProject:49 - Repsonse Body is ==> {
+    "FaultId": "OPERATION_SUCCESS",
+    "Fault": "Operation completed successfully",
+    "Username:Password": "ToolsQA:TestPassword",
+    "Authentication Type": "Basic"
+}
+2020-03-29 17:30:35 INFO  EmployeeProject:57 - faultId==> OPERATION_SUCCESS=======fault==>Operation completed successfully
+2020-03-29 17:30:38 INFO  EmployeeProject:33 - ************************verifyStatusCode**********************************
+2020-03-29 17:30:38 INFO  EmployeeProject:36 - Status Code is ==> 200
+2020-03-29 17:30:41 INFO  EmployeeProject:65 - *******************************************TC003 Ends************************************************************
+2020-03-29 17:30:44 INFO  EmployeeProject:25 - **************************TC004 Starts******************************
+2020-03-29 17:30:50 INFO  EmployeeProject:45 - *************************Verify REsponse Body *************************
+2020-03-29 17:30:50 INFO  EmployeeProject:54 - page==>2
+2020-03-29 17:30:50 INFO  EmployeeProject:55 - per_page==> 6
+2020-03-29 17:30:50 INFO  EmployeeProject:56 - total==>12
+2020-03-29 17:30:50 INFO  EmployeeProject:57 - total_pages==> 2
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - last_name========Lawson
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - id========7
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - avatar========https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - first_name========Michael
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - email========michael.lawson@reqres.in
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - last_name========Ferguson
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - id========8
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - avatar========https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - first_name========Lindsay
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - email========lindsay.ferguson@reqres.in
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - last_name========Funke
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - id========9
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - avatar========https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - first_name========Tobias
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - email========tobias.funke@reqres.in
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - last_name========Fields
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - id========10
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - avatar========https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - first_name========Byron
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - email========byron.fields@reqres.in
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - last_name========Edwards
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - id========11
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - avatar========https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - first_name========George
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - email========george.edwards@reqres.in
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - last_name========Howell
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - id========12
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - avatar========https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - first_name========Rachel
+2020-03-29 17:30:50 INFO  EmployeeProject:69 - email========rachel.howell@reqres.in
+2020-03-29 17:30:50 INFO  EmployeeProject:79 - company========StatusCode Weekly
+2020-03-29 17:30:50 INFO  EmployeeProject:79 - text========A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.
+2020-03-29 17:30:50 INFO  EmployeeProject:79 - url========http://statuscode.org/
+2020-03-29 17:30:53 INFO  EmployeeProject:34 - ************************Verify Status Code*************************
+2020-03-29 17:30:53 INFO  EmployeeProject:37 - Status Code is ==> 200
+2020-03-29 17:30:56 INFO  EmployeeProject:90 - ****************************TC004 Ends********************************************
